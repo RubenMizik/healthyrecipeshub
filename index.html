@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Delicious & Healthy Food Cookbook — 28 budget-friendly, healthy recipes easy to cook within 30 minutes." />
+  <title>Delicious &amp; Healthy Food Cookbook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="thyc.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Main navigation">
+<a href="#top" class="brand">
+        <span class="brand-text">HealthyBites</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#contents">Contents</a></li>
+        <li><a href="#balanced">Well-Balanced</a></li>
+        <li><a href="#quick">Quick &amp; Easy</a></li>
+        <li><a href="#alternatives">Alternatives</a></li>
+        <li><a href="#baon">Baon Ideas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== COVER / HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-decor hero-decor-1"></div>
+    <div class="hero-decor hero-decor-2"></div>
+    <div class="hero-content">
+      <span class="hero-eyebrow">Cookbook</span>
+      <h1 class="hero-title">Delicious &amp;<br />Healthy Food</h1>
+      <p class="hero-subtitle">With healthy ingredients &amp; easy to cook within 30 minutes!</p>
+<p class="hero-tag">With 28 Selected Healthy Food Recipes</p>
+    </div>
+<div class="hero-plate">
+      <div class="plate">
+        <img class="plate-img" src="Circl.png" alt="Delicious & Healthy Food Cookbook cover" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TABLE OF CONTENTS ===== -->
+  <section class="section toc" id="contents">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">The Table of Contents</span>
+        <h2 class="section-title">What's Inside</h2>
+<p class="section-desc">28 delicious, affordable, and healthy recipes — neatly organized into four categories.</p>
+      </div>
+
+      <div class="toc-grid">
+<a href="#balanced" class="toc-card">
+          <span class="toc-num">01</span>
+          <div>
+            <h3>Delicious &amp; Well-Balanced Meal</h3>
+            <p>7 recipes</p>
+          </div>
+          <span class="toc-arrow">→</span>
+        </a>
+        <a href="#quick" class="toc-card">
+          <span class="toc-num">02</span>
+          <div>
+            <h3>Quick &amp; Easy Meals for Busy Students</h3>
+            <p>7 recipes</p>
+          </div>
+          <span class="toc-arrow">→</span>
+        </a>
+        <a href="#alternatives" class="toc-card">
+          <span class="toc-num">03</span>
+          <div>
+            <h3>Healthy Alternatives to Junk Food</h3>
+            <p>7 recipes</p>
+          </div>
+          <span class="toc-arrow">→</span>
+        </a>
+        <a href="#baon" class="toc-card">
+          <span class="toc-num">04</span>
+          <div>
+            <h3>Baon Ideas (Healthy Packed Meals)</h3>
+            <p>7 recipes</p>
+          </div>
+          <span class="toc-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 1: WELL-BALANCED ===== -->
+  <section class="section recipe-section" id="balanced">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Section 01</span>
+        <h2 class="section-title">Delicious &amp; Well-Balanced Meal</h2>
+        <p class="section-desc">Nourishing, filling Filipino ulam dishes packed with protein and veggies.</p>
+      </div>
+      <div class="recipe-grid" id="balancedGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 2: QUICK & EASY ===== -->
+  <section class="section recipe-section alt" id="quick">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Section 02</span>
+        <h2 class="section-title">Quick &amp; Easy Meals for Busy Students</h2>
+        <p class="section-desc">Fast, affordable, and satisfying meals perfect for busy school days.</p>
+      </div>
+      <div class="recipe-grid" id="quickGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 3: HEALTHY ALTERNATIVES ===== -->
+  <section class="section recipe-section" id="alternatives">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Section 03</span>
+        <h2 class="section-title">Healthy Alternatives to Junk Food</h2>
+        <p class="section-desc">Smart swaps that satisfy cravings without the guilt.</p>
+      </div>
+      <div class="recipe-grid" id="alternativesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 4: BAON IDEAS ===== -->
+  <section class="section recipe-section alt" id="baon">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Section 04</span>
+        <h2 class="section-title">Baon Ideas (Healthy Packed Meals)</h2>
+        <p class="section-desc">Easy packed lunches to power your school day.</p>
+      </div>
+      <div class="recipe-grid" id="baonGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== THANK YOU / FOOTER ===== -->
+<footer class="footer">
+    <div class="container">
+      <h2 class="footer-title">Thank You!</h2>
+      <p class="footer-quote">Cook with love, eat with balance, and share with others.</p>
+      <p class="footer-subtitle">Enjoy cooking and sharing these delightful recipes with your loved ones. Happy cooking!</p>
+      <a href="#top" class="btn btn-footer">Back to Top ↑</a>
+      <p class="footer-copy">© Delicious &amp; Healthy Food Cookbook · 28 Healthy Recipes</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="siopao.js"></script>
+</body>
+</html>
